@@ -223,7 +223,7 @@
     text-align: center;
   }
 
-  .nav .nav-item + .nav-item {
+  .nav-item + .nav-item {
     margin: var(0 0 0 2rem);
   }
   
@@ -267,6 +267,8 @@
   .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
   }
 
   
