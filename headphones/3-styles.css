@@ -153,3 +153,69 @@
     flex-wrap: wrap;
     gap: 50px;
    }
+
+   /*Contact Us */
+   .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+
+   .form{
+    height:350px;
+    width:335px;
+    border:none;
+    font-size: 16px;
+  }
+
+    .form h1{
+        font-size:29px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .btn2{
+        border: #FF6565;
+        background-color:#FF6565;
+        border-radius: 22px;
+        color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 10px 20PX;
+        cursor: pointer;
+        margin-top: 50px;
+        margin-left:80px;
+        margin-bottom: 70px; 
+    }
+
+    .btn2:hover{  
+        opacity:0.9;
+    }
+
+    input{
+        border:none;
+        outline:none;
+        border-bottom: #979797 solid;
+        width:335px;
+        font-size: 18px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    label{
+        font-size: 14px;
+        font-weight:bold;
+    }
+    .name{
+        padding-bottom: 30px;
+    } 
+
+    .email{
+        padding-bottom: 10px;
+    }
+
+    .messages{
+        padding-bottom: 20px;
+    } 
