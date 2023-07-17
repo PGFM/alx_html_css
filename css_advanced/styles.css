@@ -263,3 +263,15 @@ footer {
     background-color: #071629;
     color: #FFF;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.foot {
+
+}
