@@ -223,3 +223,35 @@ header {
     border: none;
     border-radius: 25px;
 }
+
+.sec-5 {
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-5 h3 {
+    font-size: 1.8em;
+}
+
+.sec-5 p {
+    color: #C0C0C0;
+}
+
+.inner-faq {
+    padding: 50px;
+}
+
+.work {
+    display: flex;
+    gap: 100px;
+}
+
+.work h6 {
+    font-size: 0.9em;
+    padding: 40px 0
+}
