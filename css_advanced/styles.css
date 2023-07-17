@@ -14,7 +14,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 1140px; 
+    height: 1093px; 
 }
 
 .inner-header {
@@ -137,4 +137,53 @@ header {
 
 .quote div {
     padding-bottom: 15px;
+}
+
+/*---------Video-----------*/
+.sec-3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-3 h3 {
+    font-size: 1.8em;
+}
+
+.inner-sec {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    gap: 50px;
+}
+
+.video h6 {
+    margin: 10px 0;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+.inn {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    gap: 90px;   
+}
+
+.mas {
+    color: #C271FF;
 }
