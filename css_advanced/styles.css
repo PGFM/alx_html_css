@@ -269,9 +269,20 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
 }
 
 .foot {
-
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 40px 0;
 }
+
+.footer p {
+    padding-top: 20px;
+}
+
+.foot i {
+    padding: 0 10px;
+}
+
